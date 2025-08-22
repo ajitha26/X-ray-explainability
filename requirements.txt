@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+keras
+numpy
+pillow
+lime
+shap
+google-generativeai
