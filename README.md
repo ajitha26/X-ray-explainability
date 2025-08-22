@@ -17,13 +17,13 @@ This project is a research-grade AI platform for pneumonia detection from chest 
 
 ### 1. Normal Case
 
-![Normal Chest X-ray](./n.jpg)
+![Normal Chest X-ray](./n.png)
 
 This X-ray is a normal case where the AI model mostly detects features supporting normal lung anatomy. The red-colored regions on the explanation overlays correspond to vascular and anatomical markings typical in healthy lungs, especially in the lower lung zones. While the model highlighted some green areas (indicating confusion), the presence of red spots in the required lung regions suggests the model can identify normal features reliably.
 
 ### 2. Pneumonia Case
 
-![Pneumonia Chest X-ray](./pneumonia.jpg)
+![Pneumonia Chest X-ray](./pneumonia.png)
 
 This X-ray shows a patient diagnosed with pneumonia. The explainability maps prominently highlight the central and lower lung regions in green, corresponding to pneumonia-supporting features such as lung infiltrates or consolidations. This clear distinction demonstrates the model's ability to distinguish pathological patterns from normal anatomy visually.
 
